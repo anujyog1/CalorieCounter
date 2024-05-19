@@ -1,5 +1,3 @@
-Sure, I'll remove the "Calorie Logging" feature from the README.
-
 # CalorieCounter
 
 CalorieCounter is a simple Python-based application designed to help users track their daily caloric intake. It is built using Streamlit, providing an easy-to-use interface for monitoring calories.
@@ -7,14 +5,18 @@ CalorieCounter is a simple Python-based application designed to help users track
 ## Features
 
 - **Calorie Tracking**: Tracks and displays daily caloric intake.
+- **Gemini Pro Integration**: Utilizes Gemini Pro for advanced features.
+- **Google API Integration**: Utilizes Google API for additional functionalities.
 
 ## Requirements
 
-To run this project, you need to have Python installed along with the following library:
+To run this project, you need to have Python installed along with the following libraries:
 
 - Streamlit
+- Gemini Pro
+- Google API Client
 
-You can install this requirement using the following command:
+You can install these requirements using the following command:
 ```
 pip install -r requirements.txt
 ```
@@ -42,11 +44,27 @@ pip install -r requirements.txt
         ```
         source venv/bin/activate
         ```
-5. **Install the required library**:
+5. **Install the required libraries**:
     ```
     pip install -r requirements.txt
     ```
-6. **Run the application**:
+
+6. **Set up the Google API Key**:
+    - Obtain your Google API key from the [Google Cloud Console](https://console.cloud.google.com/).
+    - Create a file named `.env` in the project directory.
+    - Add the following line to the `.env` file:
+        ```
+        GOOGLE_API_KEY=your_google_api_key
+        ```
+
+7. **Set up the Gemini Pro API Key**:
+    - Obtain your Gemini Pro API key from the [Gemini Pro Console](https://pro.gemini.com/).
+    - Add the following line to the `.env` file:
+        ```
+        GEMINI_PRO_API_KEY=your_gemini_pro_api_key
+        ```
+
+8. **Run the application**:
     ```
     streamlit run app.py
     ```
@@ -64,6 +82,7 @@ CalorieCounter/
 │
 ├── app.py              # Main application file
 ├── requirements.txt    # List of dependencies
+├── .env                # Environment variables file for API keys
 └── License.md          # License file
 ```
 
@@ -99,6 +118,8 @@ Special thanks to all contributors and users for their support.
 For any issues or feature requests, please open an issue on GitHub.
 
 ---
+
+Created by Shradha-2022
 
 Made with ❤️ by Shradha-2022
 
