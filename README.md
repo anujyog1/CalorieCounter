@@ -119,7 +119,5 @@ For any issues or feature requests, please open an issue on GitHub.
 
 ---
 
-Created by Shradha-2022
-
 Made with ❤️ by Shradha-2022
 
