@@ -7,6 +7,7 @@ CalorieCounter is a simple Python-based application designed to help users track
 - **Calorie Tracking**: Tracks and displays daily caloric intake.
 - **Gemini Pro Integration**: Utilizes Gemini Pro for advanced features.
 - **Google API Integration**: Utilizes Google API for additional functionalities.
+- -------------------------
 
 ## Requirements
 
